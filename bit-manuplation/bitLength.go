@@ -1,5 +1,6 @@
 package bitmanuplation
 
+// returns the number of bits in a binary representation of a number.
 func bitLength(number int32) int32 {
 
 	var bitCount uint32
