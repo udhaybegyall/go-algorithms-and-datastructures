@@ -14,13 +14,6 @@ func (s *Stack) push(value int) {
 	s.valueCount += 1
 }
 
-func (s *stack) peek() interface{} {
-	if len(s.values) == 0 {
-		return nil
-	}
-	return s.values.value
-}
-
 func (s *Stack) pop() int {
 	
 	// returns 0 if counter is 0, that means there were no push operations to increment the counter.
